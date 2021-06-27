@@ -1,2 +1,0 @@
-class Createuser < ApplicationRecord
-end
