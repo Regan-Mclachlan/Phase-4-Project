@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root to: "tasks"
+  resources :tasks
   resources :groups
   resources :usertypes
   resources :createusers
